@@ -1,0 +1,70 @@
+.appContainer {
+  max-width: 560px;
+  margin: 48px auto;
+  padding: 32px;
+  border-radius: 18px;
+  background-color: #ffffff;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.titleIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background-color: #ede9fe;
+  color: #7c3aed;
+}
+
+.titleIconSvg {
+  width: 22px;
+  height: 22px;
+  stroke: currentColor;
+  stroke-width: 2;
+  fill: none;
+  stroke-linecap: round;
+}
+
+.title {
+  margin: 0;
+  color: #7c3aed;
+}
+
+.subtitle {
+  margin: 10px 0 24px;
+  text-align: center;
+  color: #6b7280;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background-color: #f5f3ff;
+  color: #5b21b6;
+  font-weight: 600;
+}
+
+.todoList {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+}
+
+.noTodos {
+  margin: 24px 0 0;
+  text-align: center;
+  color: #6b7280;
+}

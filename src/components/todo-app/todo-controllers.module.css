@@ -1,0 +1,30 @@
+.controllersContainer {
+  display: flex;
+  gap: 12px;
+}
+
+.taskInput {
+  flex: 1;
+  padding: 12px 14px;
+  border: 1px solid #d8b4fe;
+  border-radius: 10px;
+  outline: none;
+}
+
+.taskInput:focus {
+  border-color: #8b5cf6;
+}
+
+.addButton {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: #7c3aed;
+}

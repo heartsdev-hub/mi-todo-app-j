@@ -1,0 +1,87 @@
+.todoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+.todoLabel {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+  accent-color: #2563eb;
+  flex-shrink: 0;
+}
+
+.todoText {
+  color: #1f2937;
+}
+
+.completedText {
+  color: #9ca3af;
+  text-decoration: line-through;
+}
+
+.editInput {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font: inherit;
+  color: #1f2937;
+  background-color: #ffffff;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.editButton,
+.cancelButton,
+.deleteButton {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.editButton {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+}
+
+.editButton:hover {
+  background-color: #bfdbfe;
+}
+
+.cancelButton {
+  background-color: #e5e7eb;
+  color: #374151;
+}
+
+.cancelButton:hover {
+  background-color: #d1d5db;
+}
+
+.deleteButton {
+  background-color: #f43f5e;
+  color: #ffffff;
+}
+
+.deleteButton:hover {
+  background-color: #e11d48;
+}
